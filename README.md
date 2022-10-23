@@ -1,30 +1,5 @@
 # CS226-Project-Fall22
-Project repository for CS226
-
-\documentclass{article}
-
-\usepackage{color}
-\usepackage[colorlinks]{hyperref}
-\usepackage{bm}
-\usepackage{amsmath}
-\usepackage{amsfonts}
-\usepackage{graphicx}
-\usepackage{subfigure} 
-\usepackage{fullpage}
-
-\newcommand{\cg}{\mathcal{G}}
-\newcommand{\cp}{\mathcal{P}}
-\newcommand{\cn}{\mathcal{N}}
-\newcommand{\E}{\mathbb{E}}
-\newcommand{\reals}{\mathbf{R}}
-\newcommand{\tr}[1]{\textrm{#1}}
-\newcommand{\red}[1]{\textcolor{red}{#1}}
-\newcommand{\blue}[1]{\textcolor{blue}{#1}}
-\newcommand{\todo}[1][]{\textcolor{red}{TODO: }\textcolor{blue}{#1}}
-
-\title {CM 226: Project proposal (Fall 2022)}
-\author{Instructor: Sriram Sankararaman}
-\date{}
+#{CM 226: Project proposal (Fall 2022)}
 
 \begin{document}
 \maketitle
