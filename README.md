@@ -1,11 +1,6 @@
 # CS226-Project-Fall22
-#{CM 226: Project proposal (Fall 2022)}
-
-\begin{document}
-\maketitle
-Please email a proposal to me (sriram@cs.ucla.edu) cc'ing Albert (lijj36@ucla.ed). The proposal should be less than one page and should have the following information:
-\begin{itemize}
-    \item Title
+# CM 226: Project proposal (Fall 2022)
+##    \item Title
     \item Team members
     \item Define the problem.
     \item What prior approaches have been proposed (related work)?     
@@ -15,7 +10,24 @@ Please email a proposal to me (sriram@cs.ucla.edu) cc'ing Albert (lijj36@ucla.ed
     \item What dataset(s) will you use  ? Are the datasets formatted and easy to use or do you need to process data ?  
 \end{itemize}
 
-\newpage
+## Project Prompt:
+Predict disease risk from genome
+sequence data
+Given genome sequence (or genotype data)
+and disease status, learn a predictor that is
+accurate on new individual.
+See Dataset 6 in google doc
+
+Predict disease risk from genome
+sequence data
+Given genome sequence (or genotype data)
+and disease status, learn a predictor that is
+accurate on new individual.
+Variations: What if the individual is from a
+different population than the training data ?
+What if individual data is not available but
+summary data is available ?
+
 
 \section{Disease Prediction: A Genomic Persepective}
 \section{Team Members}
