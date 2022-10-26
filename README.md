@@ -1,5 +1,7 @@
 # CS226-Project-Fall22
 # CM 226: Project proposal (Fall 2022)
+
+Git Source: url src=https://isimr.notion.site/Project-Planning-cd7c28396f214de68bcbf920e175caa9
 ##    \item Title
     \item Team members
     \item Define the problem.
