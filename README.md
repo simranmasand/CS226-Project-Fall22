@@ -48,7 +48,28 @@ summary data is available ?
 
 \end{document}
 
+## Project Pipeline (Tentative):
+Sorry this is word vomit at the moment. Will clean it up tonight. ;-;
 
+Ability to digest lipids plays a very big role in determining obesity risk. Our goal is to predict obesity risk, specifically risk related to lipid processing capability, based on genotype. 
+
+First an ANOVA test will be used for the variable ratio of change in bw for HFD vs CD. The change in bw for CD will just be the average. The change in bw for HFD will be individual. The goal of this test is to show that there is a difference in the means for ratio of change across different strains.
+
+Then we will use the regression models to help predict the final weight. Maybe 2? 1 for CD, one for HFD?
+Sample splitting options
+Def split between CD and HFD
+Then, either random splitting or stratified. Leaning towards stratified.
+For stratified, we divide by strain (ex. X strains for validation, Y strains for testing?)
+
+Model details
+Model type 1: 
+Input: genotype 
+Output: change in bw
+We will have 2 models, one for CD mice and one for HFD mice. We then can rank the ratios for change in bw. (The higher the ratio, the more at risk the strain is). Theoretically, the output across the same strains and diet would be the same predicted change since they have the same genotype. Good for seeing which strains are more susceptible.
+
+Model type 2:
+Input: genotype + Initial weight of bias term. 
+Output: final weight 
 
 
 % %%%%
